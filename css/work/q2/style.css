@@ -1,5 +1,44 @@
 @charset "UTF-8";
+.layout_main_section_contents{
+  margin: 0 auto;
+}
 
+table {
+  border: 1px solid #dedede;
+}
+
+thead {
+  border: 1px solid #dedede;
+}
+
+tbody {
+  border: 1px solid #dedede;
+}
+
+tr {
+  width: 100%;
+}
+tr:nth-child(odd) {
+  background-color: #ecf1f2;
+}
+tr:last-of-type {
+  border-top: 2px dashed #000;
+}
+
+th {
+  width: 300px;
+  background-color: #2244aa;
+  text-align: center;
+  color: #dedede;
+  border-right: 1px solid #dedede;
+}
+
+td {
+  width: 300px;
+  text-align: center;
+  color: #000;
+  border: 1px solid #dedede;
+}
 
 /* q2が終わったら
 q3のcssはq3フォルダの中のcssファイルに記述してください */
