@@ -5,18 +5,18 @@
 
 table {
   border: 1px solid #dedede;
-}
-
-thead {
-  border: 1px solid #dedede;
-}
-
-tbody {
-  border: 1px solid #dedede;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border: solid 1px;
+  border-width: thin;
+  border-color: #dedede;
+  table-layout: fixed; 
+  /* セルの大きさ均等調整のPoint */
+  width: 100%;
 }
 
 tr {
-  width: 100%;
+  line-height: 26px;
 }
 tr:nth-child(odd) {
   background-color: #ecf1f2;
@@ -24,23 +24,23 @@ tr:nth-child(odd) {
 tr:last-of-type {
   border-top: 2px dashed #000;
 }
-
 th {
-  width: 300px;
   background-color: #2244aa;
   text-align: center;
   color: #dedede;
   border-right: 1px solid #dedede;
   line-height: 26px;
   padding: 10px;
+  font-size: 18px;
+  display: table-cell; /* セルの大きさ均等調整のPoint */
 }
-
 td {
-  width: 300px;
   text-align: center;
   color: #000;
   border: 1px solid #dedede;
   padding: 10px;
+  line-height: 26px;
+  display: table-cell;/* セルの大きさ均等調整のPoint */
 }
 
 /* q2が終わったら
