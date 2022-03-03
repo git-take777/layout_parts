@@ -15,7 +15,7 @@
 }
 .q4_white_small{
   width: 200px;
-  height: 100px;
+  /* height: 100px; */
   text-align: center;
 }
 /* 1章 */
@@ -27,7 +27,6 @@
 .text-center{
   display: inline-block;
   /* display: inline-block; */
-  color: #000;
 }
 
 

@@ -13,6 +13,7 @@
   width: 260px;
   border: 10px solid #000;
   box-sizing: border-box;
+  background-color: #eaf4ff;
 }
 .clearfix::after{
   display: block;

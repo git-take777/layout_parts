@@ -7,6 +7,10 @@
 @import "../work/q6/style.css";
 @import "../work/q7/style.css";
 
+/*  */
+html{
+  scroll-behavior: smooth;
+}
 /* ヘッダー */
 
 .layout_head_logo,

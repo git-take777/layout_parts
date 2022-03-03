@@ -1,5 +1,18 @@
 @charset "UTF-8";
 
+.q3_fixed_box{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #eee;
+}
+
+.smooth{
+  display: inline-block;
+}
+
 .square_big{
   width: 500px;
   height: 500px;
@@ -9,17 +22,15 @@
   left: 100px;
   transform: translate(-100px, -100px);
   z-index: -10;
+  margin: 0 auto;
 }
-
 .square_small {
   width: 100px;
   height: 100px;
   text-align: center;
-  
+  line-height: 100px;
 }
 .numeral{
-  text-align: center;
-  padding: 45px;
 
 }
 .center_top{
@@ -34,53 +45,62 @@
   bottom: 40px;
   left: 200px;
   background-color: #9fd6d2;
-  z-index: -3;
+  z-index: 5;
 }
-.boxout_second{
+.boxout_righttop{
   position: absolute;
   top: 120px;
   right: 120px;
   background-color: #7084de ;
-  z-index: -6;
+  z-index: 2;
 }
-.boxout_third{
+.boxout_rightcenter{
   position: absolute;
   top: 200px;
   right: 40px;    /* 250px -210px */
   background-color: #d0ecea;
-  z-index: -5;
+  z-index: 3;
 }
-.boxout_forth{
+.boxout_rightbottom{
   position: absolute;
   top: 280px;/* 220(2番endまで)+ 60(100-40) */
   right: 120px;
   background-color: #8b7a5e;
-  z-index: -4;
+  z-index: 4;
 }
 
-.boxout_sixth {
+.boxout_leftbottom {
   position: absolute;
   top: 280px;
   left: 120px;
   background-color: #fffee4  ;
-  z-index: -2;
+  z-index: 6;
 }
-.boxout_seventh{
+.boxout_leftcenter{
   position: absolute;
   top: 200px;
   left: 40px;
   background-color: #deae70;
-  z-index: -1;
+  z-index: 7;
 }
-.boxout_eighth{
+.boxout_lefttop{
   position: absolute;
   top: 120px;
   left: 120px;
   background-color: #de70cf;
-  z-index: 0;
+  z-index: 8;
 }
 
-
+.boxout_lefttop::after{
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color:  #ffefd3;
+  position: absolute;
+  top: 0%;
+  right: 0%;
+}
 
 /* q3が終わったら
 q4のcssはq4フォルダの中のcssファイルに記述してください */
