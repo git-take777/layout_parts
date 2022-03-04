@@ -1,5 +1,99 @@
 @charset "UTF-8";
+/* 共通パーツ */
+.flex{
+  display: flex;
+}
+.img_left{
+  margin-right: 25px;
+ 
+}
+.img_right{
+  margin-left: 25px;  
+}
+a{
+  /* transition-duration: 0.5s; */
+  /* aタグなくてもOK */
+}
+/* 終了 */
 
+/* ６−１ */
+.hover{
+  overflow: hidden;
+  /* transform: scale (1.0); */
+}
+.img-hover{
+  width: 300px;
+}
+.img_left_hover:hover{  
+  transform: scale(1.4);
+  transition-duration: 0.5s;
+}
+
+/* ６−1 right */
+.img_right{
+  position: relative;
+  overflow: hidden;
+
+  /* z-index: 2; */
+}
+
+.q6_text-wrap {
+  width:			100%;
+	height:			200px;
+	position:		absolute;
+	bottom:			-200px;	/* 枠の上に置いて表示しない */
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	transition:		all 0.4s ease;
+  overflow: hidden;
+}
+
+.q6_text {
+  display: none;
+}
+
+/* Hover */
+.img-right:hover .q6_text-wrap {
+  /* width: 100%;
+  height: 100%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  left: 0;
+  transition:	all 0.4s ease; */
+  position: absolute;
+  bottom:		0px;	/* 下に降りてくるように見せる */
+}
+
+.img-right:hover .q6_text {
+  /* position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  word-break: break-all;
+  display: block; */
+}
+
+/* 6-2 */
+.fv-wrap{
+  width: 960px;
+  height: 540px;
+  padding: 80px 0;
+
+}
+
+.fv_text{
+  height: 100%;
+  font-size: 200px;
+  display: inline-block;
+}
+
+.animantion{
+  animation: loop 10s linear infinite;
+  /* animation: 3s ease-in 1s infinite reverse both running slidein; */
+}
 
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
