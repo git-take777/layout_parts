@@ -34,70 +34,62 @@
   font-weight: bold;
 }
 
-.center_1{
-  position: absolute;
+.center_1 {
   top: 40px;
   left: 200px;
   background-color: #ffefd3;
   z-index: 1;
 }
 
-.center_5{
-  position: absolute;
+.center_5 {
   bottom: 40px;
   left: 200px;
   background-color: #9fd6d2;
-  z-index: 5;
+  z-index: 45;
 }
 
-.boxout_2{
-  position: absolute;
+.boxout_2 {
   top: 120px;
   right: 120px;
   background-color: #7084de ;
-  z-index: 2;
+  z-index: 12;
 }
 
-.boxout_3{
-  position: absolute;
+.boxout_3 {
   top: 200px;
   right: 40px;    /* 250px -210px */
   background-color: #d0ecea;
-  z-index: 3;
+  z-index: 23;
 }
-.boxout_4{
-  position: absolute;
+.boxout_4 {
   top: 280px;/* 220(2番endまで)+ 60(100-40) */
   right: 120px;
   background-color: #8b7a5e;
-  z-index: 4;
+  z-index: 34;
 }
 
 .boxout_6 {
-  position: absolute;
   top: 280px;
   left: 120px;
   background-color: #fffee4  ;
-  z-index: 6;
+  z-index: 56;
 }
 
-.boxout_7{
-  position: absolute;
+.boxout_7 {
   top: 200px;
   left: 40px;
   background-color: #deae70;
-  z-index: 7;
+  z-index: 67;
 }
 
-.boxout_8{
-  position: absolute;
+.boxout_8 {
   top: 120px;
   left: 120px;
   background-color: #de70cf;
-  z-index: 8;
+  z-index: 78;
 }
 
-.boxout_8::after{
+.boxout_8::after {
   content: "";
   display: block;
   width: 20px;

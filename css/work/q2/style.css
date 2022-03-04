@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-table {
+.meat {
   border: 1px solid #dedede;
   border-collapse: collapse;
   border-spacing: 0;
@@ -12,23 +12,23 @@ table {
   width: 100%;
 }
 
-table tr {
+.meat tr {
   line-height: 26px;
 }
 
-tbody tr:nth-child(even) {
+.meat tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-tbody tr:last-of-type {
+.meat tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
-tbody th {
+.meat tbody th {
   border-top: 1px solid #dedede;
 }
 
-.com-th {
+.meat th {
   background-color: #2244aa;
   text-align: center;
   color: #dedede;
@@ -38,7 +38,7 @@ tbody th {
   display: table-cell; /* セルの大きさ均等調整のPoint */
 }
 
-tbody td {
+.meat tbody td {
   text-align: center;
   color: #000;
   border: 1px solid #dedede;

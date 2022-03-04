@@ -14,37 +14,39 @@
   /* display: inline-block; */
 }
 
-.margin{
+.margin {
   margin: 0 auto;
 }
 
 /* ２章 */
-.table{
+.table {
   display: table;
 }
 
-.q4_blue_parents{
-  display: table-cell;
+.q4_blue_parents {
+  display: table-cell; 
+  /* table-cellはテーブルの1つのデータ→cellの親要素 */
   vertical-align: middle;
+  /* vertical-alignを使うために、上記でtable-cellを使う */
   text-align: center;
 }
 
-.flex{
+.flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.table_child{
+.table_child {
   display: inline-block;
 }
 
 /* ３章 */
-.striced_parents{
+.striced_parents {
     position: relative;
 }
 
-.striced{
+.striced {
   position: absolute;
   top: 0;
   right: 0;
@@ -53,12 +55,12 @@
   margin: auto; 
 }
 
-.transform_parents{
+.transform_parents {
   position: relative;
   text-align: center;
 }
 
-.transform{
+.transform {
     position: absolute;
     top: 50%;
     left: 50%;
