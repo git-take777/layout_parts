@@ -1,48 +1,32 @@
 @charset "UTF-8";
-.layout_main_section_contents {
-  width: 980px;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
-  margin: 0 auto;
-}
-.text_stmt_wrap{
-
-}
 .text_stmt_inner{
   width: 260px;
   border: 10px solid #000;
   box-sizing: border-box;
   background-color: #eaf4ff;
 }
+
 .clearfix::after{
   display: block;
     content: "";
     clear: both;
 }
 
-.text_stmt {
+.text_stmt_parents {
   float: left;
   padding: 20px;
   width: 300px;
   background-color: #3274ae;
   box-sizing: border-box;
 }
-.text_stmt:nth-child(2){
-  margin: 0px 30px;
+
+.text_stmt_parents{
+  margin-left: 30px;
 }
 
-/* 
-p:nth-of-type(1){
-  float: left;
+.text_stmt_parents:first-child{
+  margin-left: 0px;
 }
-p:nth-child(2){
-  float: none;
-}
-
-p:nth-child(3){
-  float: right;
-} */
 
 .box-inner {
   width: 260px;
@@ -54,11 +38,8 @@ p:nth-child(3){
   background-color: #3274ae;
   padding: 20px;
 }
-.cmn-box:nth-of-type(2) {
-  margin: 0 30px;
-}
 
-p {
+.text_stmt_child {
   padding: 20px;
 }
 /* q1が終わったら

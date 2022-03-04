@@ -1,28 +1,15 @@
 @charset "UTF-8";
-.q4_inner_contents{
-  background-color: gray;
 
-}
-.com_flex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.q4_white{
-  background-color: #fff;
-}
-.q4_white_small{
-  width: 200px;
-  /* height: 100px; */
-  text-align: center;
-}
 /* 1章 */
-.text_parents{
+.text_parents {
   text-align: center;
 }
 
-.text-center{
+.com_textalign{
+  text-align: center;
+}
+
+.text-inlineblock {
   display: inline-block;
   /* display: inline-block; */
 }
@@ -32,33 +19,31 @@
 }
 
 /* ２章 */
-
 .table{
   display: table;
 }
+
 .q4_blue_parents{
   display: table-cell;
   vertical-align: middle;
   text-align: center;
 }
+
 .flex{
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
+
 .table_child{
   display: inline-block;
-  /* background-color: aqua;   */
-  /* padding: 0 20px; */
 }
 
 /* ３章 */
 .striced_parents{
     position: relative;
-    top: 20%;
-    text-align: center;
 }
+
 .striced{
   position: absolute;
   top: 0;
@@ -67,13 +52,12 @@
   left: 0;
   margin: auto; 
 }
+
 .transform_parents{
   position: relative;
-  top: 20%;
-  right: 10%;
-  margin-right: -10%;
   text-align: center;
 }
+
 .transform{
     position: absolute;
     top: 50%;
@@ -82,3 +66,5 @@
 }
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */
+
+/* Q4inner contentsは使わない。 */

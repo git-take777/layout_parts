@@ -1,7 +1,4 @@
 @charset "UTF-8";
-.layout_main_section_contents{
-  margin: 0 auto;
-}
 
 table {
   border: 1px solid #dedede;
@@ -15,31 +12,37 @@ table {
   width: 100%;
 }
 
-tr {
+table tr {
   line-height: 26px;
 }
-tr:nth-child(odd) {
+
+tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
-tr:last-of-type {
+
+tbody tr:last-of-type {
   border-top: 2px dashed #000;
 }
-th {
+
+tbody th {
+  border-top: 1px solid #dedede;
+}
+
+.com-th {
   background-color: #2244aa;
   text-align: center;
   color: #dedede;
   border-right: 1px solid #dedede;
-  line-height: 26px;
   padding: 10px;
   font-size: 18px;
   display: table-cell; /* セルの大きさ均等調整のPoint */
 }
-td {
+
+tbody td {
   text-align: center;
   color: #000;
   border: 1px solid #dedede;
   padding: 10px;
-  line-height: 26px;
   display: table-cell;/* セルの大きさ均等調整のPoint */
 }
 
