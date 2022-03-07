@@ -25,24 +25,22 @@
   word-break: break-all;
 }
 
-.comment-wrap::before {
+.comment-wrap::before,::after {
   content: "";
   display: block;	  
   position: absolute;	  
-  top: 70%;	
-  left: -35px;	
+  top: 70%;		
   border: 15px solid transparent;
   margin-top: -3px;	  
+}
+
+.comment-wrap::before {
+  left: -35px;	
   border-right: 15px solid #222;	
 }
 
 .comment-wrap::after {
-  content: "";
-  position: absolute;
-  top: 70%;
-  left: -30px;
-  margin-top: -3px;
-  border: 15px solid transparent;
+  left: -27px;
   border-right: 15px solid #fff;
 }
 

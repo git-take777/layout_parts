@@ -11,11 +11,10 @@
 
 /* Float */
 .q5_left {
-  display: block;
   float: left;
 }
 
-.clearfix::after {
+.clear::after {
   content: "";
   clear: both;
   display: block;
@@ -31,9 +30,12 @@
 }
 
 /* inline-block */
-.inline-block{
+.inline-block_parents {
+  font-size: 0;
+}
+
+.inline-block {
   display: inline-block;
-  width: 45%;
 }
 
 .q5_line {
@@ -43,16 +45,16 @@
 }
 
 /* Calc */
-.flex_calc{
+.flex_calc {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.calc_width{
+.calc_width {
   width: calc((100% -50px) /3) ;
 }
-.calc_width:nth-child(n+2){
+.calc_width:not(:first-child) {
     margin-left: 25px;
 }
 
