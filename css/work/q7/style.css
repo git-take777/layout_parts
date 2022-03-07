@@ -25,7 +25,8 @@
   word-break: break-all;
 }
 
-.comment-wrap::before,::after {
+.comment-wrap::before,
+::after {
   content: "";
   display: block;	  
   position: absolute;	  
