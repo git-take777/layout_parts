@@ -3,21 +3,17 @@
 .common-feature {
   display: block;
   width: 400px;
+  margin-left:  60px;
 }
 
-.common-margin {
-  margin-left:  60px;
+.common-feature:first-child {
+  margin-left: 0;
 }
 
 /* Float */
 .q5_left {
-  float: left;
-}
-
-.clear::after {
-  content: "";
-  clear: both;
   display: block;
+  float: left;
 }
 
 /* Table */
@@ -53,9 +49,10 @@
 
 .calc_width {
   width: calc((100% -50px) /3) ;
+  margin-left: 25px;
 }
-.calc_width:not(:first-child) {
-    margin-left: 25px;
+.calc_width:first-child {
+  margin-left: 0;
 }
 
 /* q5が終わったら

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 .layout7 {
   display: flex;
   justify-content: center;
@@ -26,13 +25,13 @@
 }
 
 .comment-wrap::before,
-::after {
+.comment-wrap::after {
   content: "";
   display: block;	  
   position: absolute;	  
   top: 70%;		
   border: 15px solid transparent;
-  margin-top: -3px;	  
+  /* margin-top: -3px;	   */
 }
 
 .comment-wrap::before {

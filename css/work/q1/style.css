@@ -8,8 +8,8 @@
 
 .clearfix::after {
   display: block;
-    content: "";
-    clear: both;
+  content: "";
+  clear: both;
 }
 
 .text_stmt_parents {

@@ -7,23 +7,17 @@
 .common-img_size {
   width: 300px;
   height: 200px;
-}
-
-.img_right {
   margin-left: 50px;  
+  overflow: hidden;
 }
 
-.img-right:first-child {
+.common-img_size:first-child {
   margin-left: 0;
 }
 
 /* 終了 */
 
-/* ６−１ */
-.hover {
-  overflow: hidden;
-}
-
+/* ６−１left */
 .img-hover {
   width: 100%;
   height: 100%;
@@ -37,17 +31,16 @@
 /* ６−1 right */
 .img_right {
   position: relative;
-  overflow: hidden;
 }
 
 .q6_text-wrap {
-  width:			100%;
-	height:			200px;
-	position:		absolute;
-	bottom:			-200px;	/* 枠の上に置いて表示しない */
-	left:			0;
+  width: 100%;
+	height: 200px;
+	position: absolute;
+	bottom: -200px;	/* 枠の上に置いて表示しない */
+	left: 0;
 	background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .8));
-	transition:		all 0.4s ease;
+	transition:	all 0.4s ease;
   overflow: hidden;
 }
 
@@ -64,7 +57,6 @@
 /* Hover */
 .img_right:hover .q6_text-wrap {
   bottom:		0px;	/* 下に降りてくるように見せる */
-  left: 0;
 }
 
 /* 6-2 */
