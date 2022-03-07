@@ -31,7 +31,6 @@
   position: absolute;	  
   top: 70%;		
   border: 15px solid transparent;
-  /* margin-top: -3px;	   */
 }
 
 .comment-wrap::before {
