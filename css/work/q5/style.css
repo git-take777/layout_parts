@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*5-○ 共通項 */
 .common-feature {
-display: block;
+  display: block;
   width: 400px;
 }
 
@@ -11,17 +11,14 @@ display: block;
 
 /* Float */
 .q5_left {
-  display: inline-block;
+  display: block;
   float: left;
 }
 
-.clear::before {
+.clearfix::after {
   content: "";
   clear: both;
-}
-.clear::after {
-  content: "";
-  clear: both;
+  display: block;
 }
 
 /* Table */

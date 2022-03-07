@@ -4,10 +4,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .img-wrap {
-
+  position: absolute;
+  bottom: 10%;
+  left: 15%;
 }
 
 .comment-wrap {
@@ -27,11 +30,10 @@
   display: block;	  
   position: absolute;	  
   top: 70%;	
-  left: -30px;	
+  left: -35px;	
   border: 15px solid transparent;
   margin-top: -3px;	  
-  border-right: 15px solid #fff;	
-  z-index: 20;
+  border-right: 15px solid #222;	
 }
 
 .comment-wrap::after {
@@ -41,11 +43,10 @@
   left: -30px;
   margin-top: -3px;
   border: 15px solid transparent;
-  border-right: 15px solid #222;
-  z-index: 19;
+  border-right: 15px solid #fff;
 }
 
 .comment {
   padding: 20px;
-  font-size: 18px;
+  font-size: 16px;
 }
